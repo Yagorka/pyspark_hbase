@@ -4,6 +4,9 @@ import pandas as pd
 import os
 
 class Predict():
+    """
+        Сlass that allows you make prediction cluster for index from data_result_from_hbase_with_postprocess.csv
+    """
 
     @staticmethod
     def load_result_data(name_table_result='/home/yagor/Рабочий стол/mipt/lab3/notebook/data_result_from_hbase_with_postprocess.csv'):
